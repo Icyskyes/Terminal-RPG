@@ -12,7 +12,7 @@ int read_int() {
     char *endptr;
     int value = strtol(buffer, &endptr, 10);
 
-    // Optional validation
+    
     if (endptr == buffer) {
         printf("Invalid number.\n");
     }
